@@ -1,0 +1,44 @@
+.navOutsideContainer{
+   
+    width: 90%;
+    z-index: 10000;
+    margin:  auto;
+   
+    
+}
+.navInnerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 0px 10px;
+    
+    /* margin-top:20px ; */
+     /* padding-top: 20px; */
+}
+.navSlideContainer{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.329);
+    position: fixed;
+    margin-top: -20px;
+    z-index: 10000;
+}
+.navInnerContainer a.active{
+    border: 2px solid #004C85;
+    padding: 2px 5px;
+    background-color: #FAFDFF;
+    position: relative;
+}
+
+.navInnerContainer a.active::after {
+    content: '';
+    display: inline-block;
+    background-image: url('../assets/gameIcon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 18px; 
+    height: 18px; 
+    margin-left: 5px; 
+    vertical-align: middle;
+}

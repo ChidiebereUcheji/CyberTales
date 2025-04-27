@@ -1,0 +1,33 @@
+
+
+.successfulQuizModalContainer{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.708);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+}
+
+.successfulQuizInnerContainer{
+    width: 70%;
+    height: 60%;
+    margin: auto;
+    background-color:#004C85 ;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    justify-content: center;
+    gap: 0px;
+}
+.successfulQuiz-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    height: 80%;
+}

@@ -1,0 +1,155 @@
+.homeContainer{
+    background-color: #FAFDFF;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+.homeInnerContainer{
+    width: 70%;
+    border-radius: 20px;
+    border: 2px solid ;
+    border-color:#0A0D171A ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    margin:50px auto;
+    padding: 50px 20px;
+    position: relative;
+    height: 75%; 
+    max-height: 75%;
+}
+
+/* Group 819 */
+
+.chatContainer{
+    position: absolute;
+width: 244.98px;
+height: 190px;
+left: 690.49px;
+top: 98px;
+}
+
+
+
+.chatText{
+position: absolute;
+left: 20.49%;
+right: 18.7%;
+top: 14.87%;
+bottom: 64.76%;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+
+color: #004C85;
+}
+
+
+.blueChatContainer{
+    position: absolute;
+width: 220.98px;
+height: 170px;
+left: 220.49px;
+bottom: 115px;
+}
+
+
+
+.blueChatText{
+position: absolute;
+left: 9.49%;
+right: 18.7%;
+top: 7.87%;
+bottom: 64.76%;
+width: 90%;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+
+color: white;
+}
+
+.modal{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.566);
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    z-index: 20000;
+  }
+  .close{
+    color: green;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+    cursor: pointer;
+  }
+
+
+@media screen and (max-width: 960px) {
+    .homeInnerContainer{
+        border: none;
+        margin-top: 10px;
+    }
+
+    .chatContainer{
+        position: absolute;
+    width: 210.98px;
+    height: 190px;
+    left: 90.49px;
+    top: 220px;
+    }
+    .chatText{
+      
+        font-size: 12px;
+       
+        }
+
+
+.blueChatContainer{
+    position: absolute;
+width: 190.98px;
+height: 160px;
+left: 200.49px;
+bottom: 115px;
+}
+
+
+
+.blueChatText{
+
+font-size: 11px;
+
+}
+}
+
+
+@media screen and (max-width: 1600px) and (max-height: 750px) {
+    .homeInnerContainer{
+        width: 70%;
+        border-radius: 20px;
+        border: 2px solid #0A0D171A;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 28px;
+        margin:30px auto;
+        padding: 50px 20px;
+        position: relative;
+        height: 75%; 
+        max-height: 75%;
+    }
+}

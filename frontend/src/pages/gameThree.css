@@ -1,0 +1,284 @@
+.gameThreeContainer{
+    background-color: #FAFDFF;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+.gameThreeInnerContainer{
+    width: 70%;
+    border-radius: 20px;
+    border: 2px solid #0A0D171A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    margin:50px auto;
+    padding: 50px 20px;
+    position: relative;
+    height: 75%; 
+    max-height: 75%;
+}
+
+/* Group 819 */
+
+.gameThreeChatContainer{
+    position: absolute;
+width: 244.98px;
+height: 190px;
+left: 690.49px;
+top: 98px;
+}
+
+
+
+.gameThreeChatText{
+position: absolute;
+left: 20.49%;
+right: 18.7%;
+top: 14.87%;
+bottom: 64.76%;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+
+color: #004C85;
+}
+
+
+.gameThreeBlueChatContainer{
+    position: absolute;
+width: 200.98px;
+height: 150px;
+left: 230.49px;
+bottom: 10%;
+}
+
+
+
+.gameThreeBlueChatText{
+position: absolute;
+left: 8.49%;
+right: 18.7%;
+top: 3.87%;
+bottom: 64.76%;
+width: 90%;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+
+color: white;
+}
+
+.symbolThreeImageContainer{
+    position:absolute;
+     left:50px;
+      bottom:10%;
+     z-index:100;
+     animation: slideIn 1s ease-out forwards;
+}
+
+
+
+/* Define the slide-in animation */
+@keyframes slideIn {
+    0% {
+        transform: translateX(-250px); /* Start off-screen */
+    }
+    100% {
+        transform: translateX(0); /* End at the original position */
+    }
+}
+
+
+.gameThreeImageContainer{
+    display:flex; flex-direction: row;
+     margin-bottom: -100px; justify-content:center; 
+     gap:10px;
+
+     
+}
+
+.gameThreeTitleContainer{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top:10px ;
+  margin-bottom: 10px;
+}
+
+
+
+@media screen and (max-width: 960px) {
+    .gameThreeInnerContainer{
+        border: none;
+        margin-top: 100px;
+       
+    }
+
+    .gameThreeChatContainer{
+        position: absolute;
+    width: 210.98px;
+    height: 190px;
+    left: 90.49px;
+    top: 220px;
+    }
+    .gameThreeChatText{
+      
+        font-size: 12px;
+       
+        }
+
+
+.gameThreeBlueChatContainer{
+    position: absolute;
+width: 190.98px;
+height: 160px;
+left: 100.49px;
+bottom: 40px;
+}
+
+
+
+.gameThreeBlueChatText{
+
+font-size: 11px;
+
+}
+
+.gameThreeImageContainer{
+    display:flex; flex-direction: column;
+     margin-bottom: -100px; justify-content:center; align-items: center;
+     
+
+     
+}
+.symbolThreeImageContainer{
+    position:absolute;
+     left:-40px;
+      bottom:50px;
+     z-index:100;
+     animation: slideIn 1s ease-out forwards;
+}
+
+
+
+}
+
+/* @media screen and (max-width: 378px) {
+    .gameThreeBlueChatContainer{
+    position: absolute;
+width: 160.98px;
+height: 190px;
+left: 80.49px;
+bottom: 40px;
+}
+
+.gameThreeBlueChatText{
+
+    font-size: 10.5px;
+    
+    }
+
+}  */
+
+
+@media screen and (max-width: 1600px) and (max-height: 750px) {
+    .gameThreeInnerContainer {
+        width: 70%;
+        border-radius: 20px;
+        border: 2px solid #0A0D171A;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin: 30px auto;
+        padding: 20px 20px;
+        position: relative;
+        height: 77%; 
+        max-height: 77%; 
+        /* margin-top: -30px; */
+    }
+
+    .gameThreeTitleContainer{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        position: fixed;
+        top: 160px;
+        left: 42%;
+    }
+
+    .symbolThreeImageContainer{
+        position:absolute;
+         left:50px;
+          bottom:-2%;
+         z-index:100;
+         animation: slideIn 1s ease-out forwards;
+    }
+    .gameThreeImageContainer{
+        margin-top: 35px;
+        /* background-color: red; */
+         
+    }
+    .gameThreeBlueChatContainer{
+        position: absolute;
+    width: 200.98px;
+    height: 150px;
+    left: 230.49px;
+    bottom: -2%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 400px) {
+  
+    .gameThreeImageContainer{
+        margin-top: 100px;
+        /* background-color: red; */
+        width: 140%;
+        margin-left: -50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+  
+    .gameThreeTitleContainer{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        position: fixed;
+        left: 20%;
+        top: 120px;
+      
+    }
+    .symbolThreeImageContainer{
+        position:absolute;
+         left:-60px;
+          bottom: -30px;
+        animation: slideIn 1s ease-out forwards;
+    }
+    .gameThreeBlueChatContainer {
+        position: absolute;
+        width: 190.98px;
+        height: 160px;
+        left: 60.49px;
+        bottom: 0px;
+        margin-right: 50px;
+        z-index: 1000;
+    }
+  
+
+} 
+

@@ -1,0 +1,82 @@
+.profilePageContainer{
+    background-color: #FAFDFF;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+.profilePageInnerContainer{
+    width: 70%;
+    border-radius: 20px;
+    border: 2px solid ;
+    border-color:#0A0D171A ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    margin:50px auto;
+    padding: 50px 20px;
+    position: relative;
+    height: 75%;
+    max-height: 75%;
+}
+
+.profileColumnContainer{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: -100px;
+    gap:20px;
+}
+.profile-left, .profile-right{
+    flex: 1;
+    max-width: 350px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 7px 5px 15px rgba(211, 211, 211, 0.413);
+    height: 450px;
+    padding: 20px;
+   
+}
+
+
+@media screen and (max-width: 960px) {
+    .profilePageContainer{
+        background-color: #FAFDFF;
+        width: 100vw;
+        /* height: 1300px; */
+        height: 100%;
+        padding-top: 20px;
+    }
+    .profilePageInnerContainer{
+        border: none;
+        margin-top: 100px;
+        
+    }
+    .profileColumnContainer{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        margin: auto;
+        margin-top: 0px;
+        /* background-color: red; */
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 100px;
+        /* width: 100%; */
+    }
+    .profile-left, .profile-right{
+        flex: 1;
+        min-width: 280px;
+        /* max-width: 380px;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 7px 5px 15px rgba(211, 211, 211, 0.413);
+        height: 400px;
+        background-color: yellow; */
+        
+    }
+
+
+}

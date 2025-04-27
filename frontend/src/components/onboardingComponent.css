@@ -1,0 +1,40 @@
+.onboardingComponentContainer{
+    width: 60%;
+    /* border-radius: 20px; */
+    /* border: 2px solid ; */
+    border-color:#0A0D171A ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    /* margin:250px auto; */
+    padding: 50px 20px;
+    position: relative;
+    height: 75%;
+    /* background-color: red; */
+}
+
+@media screen and (max-width: 960px) {
+    .onboardingComponentContainer{
+        border: none;
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-height: 820px) {
+    .onboardingComponentContainer{
+        /* margin-top: 100px; */
+        overflow: none;
+        border: none;
+        width: 100%;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .onboardingComponentContainer{
+      
+        width: 120%;
+    }
+}

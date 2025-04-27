@@ -1,0 +1,276 @@
+.miniLessonContainer{
+    background-color: #FAFDFF;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 20px;
+   
+}
+
+.miniLessonInnerContainer{
+    width: 70%;
+    border-radius: 20px;
+    border: 2px solid ;
+    border-color:#0A0D171A ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 28px;
+    margin:50px auto;
+    padding: 50px 20px;
+    position: relative;
+    height: 75%; 
+    max-height: 75%;
+   
+}
+
+
+.blueChatContainer{
+    position: absolute;
+width: 250.98px;
+height: 160px;
+left: 250.49px;
+top: 110px;
+padding-right: 10px;
+}
+
+
+
+.blueChatText{
+position: absolute;
+left: 6.49%;
+right: 18.7%;
+top: 4.87%;
+bottom: 64.76%;
+width: 90%;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 20px;
+padding-right: 20px;
+color: white;
+} 
+
+.miniLessonQuestionContainer{
+    width: 500px; height:fit-content;
+     background-color:#2E3346;
+      position:absolute; display:flex;
+       align-items:center; justify-content:center;
+        padding:10px; left:28%; bottom:35%;color:white;
+         font-size:14px;
+}
+
+.symbolImage{
+    position:absolute; left:90px; top:150px;
+}
+.miniLessonAnswerContainer{
+    position:relative; padding:10px;
+     background-color:#2E3346; width:300px;
+      color:white; bottom:-230px; left:-100px
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 960px) {
+    .miniLessonInnerContainer{
+        border: none;
+        width: 90%;
+        /* margin-top: 10px; */
+        margin: 100px auto;
+        padding: 0px 10px;
+    }
+
+
+
+.blueChatContainer{
+    position: absolute;
+width: 220.98px;
+height: 190px;
+left: 200.49px;
+bottom: 115px;
+}
+
+
+
+.blueChatText{
+
+font-size: 11px;
+
+} 
+.miniLessonQuestionContainer{
+    width: 420px; height:fit-content;
+     background-color:#2E3346;
+      position:absolute; display:flex;
+       align-items:center; justify-content:center;
+        padding:10px; left:28%; bottom:35%;color:white;
+         font-size:15px;
+}
+.miniLessonAnswerContainer{
+    position:relative; padding:10px;
+     background-color:#2E3346; width:300px;
+      color:white; bottom:-340px; left:-70px
+}
+}
+
+
+@media screen and (max-width: 720px) {
+    .miniLessonInnerContainer{
+       
+        margin: 50px auto;
+        padding: 0px 10px;
+    }
+
+
+
+.blueChatContainer{
+    position: absolute;
+width: 220.98px;
+height: 180px;
+left: 200.49px;
+bottom: 115px;
+}
+
+
+
+.blueChatText{
+
+font-size: 11px;
+
+} 
+
+.miniLessonQuestionContainer{
+    width: 300px; height:fit-content;
+     background-color:#2E3346;
+      position:absolute; display:flex;
+       align-items:center; justify-content:center;
+        padding:10px; left:18%; bottom:35%;color:white;
+         font-size:12px;
+}
+}
+
+
+@media screen and (max-width: 450px) {
+    .miniLessonInnerContainer{
+       
+        margin: 50px auto;
+        padding: 0px 10px;
+    }
+
+
+
+.blueChatContainer{
+    position: absolute;
+width: 220.98px;
+height: 170px;
+left: 120.49px;
+bottom: 115px;
+}
+
+
+
+.blueChatText{
+
+font-size: 11px;
+
+} 
+
+.miniLessonQuestionContainer{
+    width: 280px; height:fit-content;
+     background-color:#2E3346;
+      position:absolute; display:flex;
+       align-items:center; justify-content:center;
+        padding:10px; left:18%; bottom:35%;color:white;
+         font-size:12px;
+}
+.symbolImage{
+    position:absolute; left:50px; top:140px;
+}
+.miniLessonAnswerContainer{
+    position:relative; padding:10px;
+     background-color:#2E3346; width:300px;
+      color:white; bottom:-340px; left:-50px
+}
+}
+
+
+@media screen and (max-width: 390px) {
+   
+.symbolImage{
+    position:absolute; left:50px; top:140px;
+}
+.miniLessonOneOuterAnswrContainer{
+    position:absolute; left:20px; bottom:180px;
+}
+.miniLessonOneQuestionOuterContainer{
+    position:absolute; left:0px; top:450px;
+    width: 100%;
+}
+
+.miniLessonQuestionContainer{
+    width: 250px; height:fit-content;
+      position:absolute; display:flex;
+       align-items:center; justify-content:center;
+        padding:10px; left:7%; bottom:35%;color:white;
+         font-size:12px;
+         margin-top: 30px;
+}
+.blueChatContainer{
+    position: fixed;
+width: 200.98px;
+height: 160px;
+margin-left: -150px;
+margin-top: 50px;
+/* left: -120.49px;
+bottom: 115px; */
+
+}
+}
+
+
+
+    @media screen and (max-width: 1600px) and (max-height: 750px) {
+        .miniLessonInnerContainer{
+            width: 70%;
+            border-radius: 20px;
+            border: 2px solid #0A0D171A;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            margin:40px auto;
+            padding: 30px 20px;
+            position: relative;
+            height: 78%; 
+            max-height: 78%;
+           
+        }
+        .miniLessonQuestionContainer{
+            width: 450px; height:fit-content;
+             background-color:#2E3346;
+              position:absolute; display:flex;
+               align-items:center; justify-content:center;
+                padding:10px; left:30%; bottom:29%;color:white;
+                 font-size:13px;
+        }
+        .blueChatContainer{
+            position: absolute;
+        width: 220.98px;
+        height: 100px;
+        left: 250.49px;
+        top: 60px;
+        padding-right: 10px;
+        }
+        .miniLessonAnswerContainer{
+            position:relative; padding:10px;
+             background-color:#2E3346; width:280px;
+              color:white; top:185px; left:0px;
+              height: fit-content;
+        }
+    }

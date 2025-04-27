@@ -1,0 +1,159 @@
+/* .emailText{
+    font-weight: 600;
+    font-size: 20px;
+} */
+.loginButton{
+  background-color: #004b85;
+  padding: 10px;
+  color: white;
+  font-weight: 600;
+  width: 100%;
+}
+
+.loginButton:hover{
+background-color: transparent;
+border: 1px solid rgba(128, 128, 128, 0.458);
+color: rgba(128, 128, 128, 0.458);
+
+}
+
+
+/* DEMO-SPECIFIC STYLES */
+.emailText {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid black; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black }
+  }
+
+  .modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.566);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .modalInnerContainer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 60%;
+    margin: 20px auto;
+    background-color: #bfd5e5;
+    padding: 10px;
+  }
+  .close{
+    color: #e7686463;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+    cursor: pointer;
+  }
+
+
+.popContainer{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  z-index: 99999;
+  background-color: black;
+  /* background-color: skyblue; */
+  text-align: center;
+ padding: 20px;
+ max-width: 250px;
+  width: max-content;
+  box-shadow: 2px 5px 20px 5px rgba(173, 216, 230, 0.544);
+}
+.popText{
+  color: white;
+  font-weight: bold;
+  
+}
+.innerPopContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.popButton{
+  background-color: #004b85; 
+  /* background-color: rgb(58, 135, 224); */
+  padding:7px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.popClose{
+  color: #c62c2676;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+
+/* update product */
+
+.updateProductModal{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto; /* Enable vertical scrolling */
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #888 #fff; /* Firefox */
+
+}
+
+
+/* For WebKit browsers (Chrome, Safari) */
+.updateProductModal::-webkit-scrollbar {
+  width: 8px;
+}
+
+.updateProductModal::-webkit-scrollbar-track {
+  background: #fff; 
+}
+
+.updateProductModal::-webkit-scrollbar-thumb {
+  background-color: #888; /* Scrollbar color */
+  border-radius: 10px; /* Optional: Make scrollbar rounded */
+  border: 2px solid #fff; /* Optional: Add padding around scrollbar */
+}
+
+  @media screen and (max-width: 960px) {
+    .modalInnerContainer{
+      
+      width: 90%;
+      margin: 20px auto;
+    }
+  }
