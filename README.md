@@ -21,4 +21,4 @@ It provides a practical platform for cybersecurity enthusiasts, students, and pr
 ## 🛠️ Getting Started
 1. Clone the repository:
    ```bash
-   [https://github.com/ChidiebereUcheji/CyberTales.git]
+   https://github.com/ChidiebereUcheji/CyberTales.git
